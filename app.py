@@ -34,7 +34,6 @@ def main():
 	create_page_visited_table()
 	create_emotionclf_table()
 	add_page_visited_details("Home",datetime.now())
-	st.subheader("Home-Emotion In Text")
 
 	with st.form(key='emotion_clf_form'):
 		raw_text = st.text_area("Type Here")
